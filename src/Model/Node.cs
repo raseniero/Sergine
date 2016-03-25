@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Sergine.Model;
 
-namespace Sergine
+namespace Sergine.Model
 {
     public class Node
     {

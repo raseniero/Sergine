@@ -6,7 +6,7 @@
   "projectUrl": "",
   "licenseUrl": "",
   "tooling": {
-    "defaultNamespace": "Sergine"
+    "defaultNamespace": "Sergine.Model"
   },
 
   "frameworks": {

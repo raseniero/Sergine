@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
+using Sergine.Model;
 
-namespace Model.Test
+namespace Sergine.Model.Test
 {
     // see example explanation on xUnit.net website:
     // https://xunit.github.io/docs/getting-started-dnx.html
@@ -13,12 +14,13 @@ namespace Model.Test
         public void PassingTest()
         {
             Assert.Equal(4, Add(2, 2));
+            Console.WriteLine("test");
         }
 
         [Fact]
         public void FailingTest()
         {
-            Assert.Equal(5, Add(2, 2));
+            Assert.Equal(5, Add(2, 3));
         }
 
         int Add(int x, int y)

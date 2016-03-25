@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Sergine.Model;
 
-namespace Sergine
+namespace Sergine.Model
 {
     public class NodeType
     {
